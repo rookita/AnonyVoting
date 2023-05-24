@@ -21,5 +21,7 @@ AnnoyVote是一块基于区块链的多场景的可定制化的匿名投票平�
 
 ## 其他
 1.可使用gunicorn封装flask后端。
+
 2.若需要用nginx，请将vue-web中的dist文件夹移动至nginx默认html文件夹(/var/www/html)。
+
 3.如有问题联系dl191@mail.ustc.edu.cn。
