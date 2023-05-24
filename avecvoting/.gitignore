@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+*.log
+*.abi
+*.bin
+bin
+db.sqlite3
+
