@@ -283,7 +283,6 @@ def add_avcballot():
 #     #             vote_addr,"Vote","addBallot", args=[ballot_str, signature], signer=signer
 #     #         )
 #     # except Exception as e:
-#     #        print(e)
 #     #        return jsonify({"result": 'error3'})
 #     # return jsonify({"result": 'success'})
 
