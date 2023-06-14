@@ -20,7 +20,7 @@ function get_blockchain_logs(){
 command=$1
 
 case $command in 
-    "g")
+    "g"|"generate")
     generate_blockchain_config
     ;;
     "start"|"r")
