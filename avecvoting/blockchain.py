@@ -154,6 +154,7 @@ def call_contract(
     app.logger.info(
         f"call contract {contract_name} at {contract_addr}. {fn_name} ({args}) -> {outputresult}"
     )
+    logging.info('finish')
     return outputresult
 
 
