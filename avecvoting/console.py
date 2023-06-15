@@ -41,7 +41,7 @@ check_py_version_with_exception()
 每一组命令一个class，放到console_utils目录里
 把一些公共工具函数抽到console_common.py里
 在此文件主要是是解析输入，试图按配置和自动加载类结合的方式调取指定的命令实现.
-优化了下usage，可以指定分组的usage打印，如usage account,usage rpc,输出的信息比较少了，比较简洁易读
+优化了下usage部分，可以指定分组的usage打印，如usage account,usage rpc,输出的信息比较少了，比较简洁易读
 """
 cmd_mapping = dict()
 cmd_mapping["showaccount"] = ["cmd_account", "CmdAccount"]
