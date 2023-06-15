@@ -61,6 +61,7 @@ def compile_and_abis(compile: bool = True):
         # data_parser.load_abi_file(f"contracts/{c}.abi")
         # abis[c] = data_parser.contract_abi
         # dp[c] = data_parser
+        
 
 
 # 部署合约返回合约地址
